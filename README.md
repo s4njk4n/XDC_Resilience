@@ -1,5 +1,7 @@
 # XDC_Resilience
 
+Ideal for basic dev's running a node on on a local machine for development. This script can be set to run on the local machine the node is running on. In the event of a loss of connectivity, it reboots the local machine, and after connectivity has been restored by rebooting then sends a push notification that the system has required a reboot in order to restore connectivity.
+
 ## Script creation:
 - Create the internet monitoring script
 ```
